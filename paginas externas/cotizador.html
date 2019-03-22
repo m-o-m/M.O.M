@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<H1><font color="white" size="4"> <center> BIENVENIDOS:<input type="radio" name="ship" value="22" CHECKED />  
+
+		<body bgcolor="black">
+
+			<form name="form1">
+					
+				<br>
+				que diseno quiere cotizar:<br>
+				1.<img src="dos.jpg"/> <br>
+				2.<img src="tres.jpg"/> <br> 
+				3.<img src="cuatro.jpg"/> <br> 
+				4.<img src="cinco.jpg"/> <br>
+				5.<img src="seis.jpg"/> <br>
+				holograma numero:<input name="fac" />
+				  <br>
+					Calcular:<input name="subtotal" /><input type="button" value="calcular" onclick="calcular()" />
+				  <br>
+				<br>
+					Resultado:<input name="total1" />
+					<input type="button" value="calcular" onclick="calcula4()" />
+				<br>
+				<br>
+			</form>
+		<script>
+				function calcular() 
+			{
+				var f = document.form1;
+					f.subtotal.value = (subtotal*100)
+			}
